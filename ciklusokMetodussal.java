@@ -4,7 +4,7 @@ package kiirasok;
  *
  * @author PácziBalázs(SZF_N_20
  */
-public class ciklusok {
+public class ciklusokMetodussal {
 
     public static void main(String[] args) {
         int SorDb = 5;
@@ -19,6 +19,8 @@ public class ciklusok {
             szoveg += Betu;
             cv++;
         }
+        
+        
         cv = 0;
         if (BetuDb >= SorDb) {
             int tmp= BetuDb;
@@ -36,4 +38,10 @@ public class ciklusok {
             }
         }
     }
+    
+    public static void statisztika() {
+        string f="%d sorban, %d oszlopban %d betü db \n"
+    }
 }
+
+
